@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesome file -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- font awesome file -->
+
+    <!-- flaticon file -->
+    <link rel="stylesheet" href="./css/uicons-regular-straight.css" />
+    <!-- flaticon file -->
+
+    <!-- noramlize file -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- noramlize file -->
+
+    <!-- framework file -->
+    <link rel="stylesheet" href="./css/framework.css" />
+    <!-- framework file -->
+
+    <!-- main style file  -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- main style file  -->
+
+    <!-- open sans font (google fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./images/user-group-solid.svg" />
+    <!-- open sans font (google fonts) -->
+
+    <title>Friends</title>
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="page d-flex">
+      <div class="side-bar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-c mt-0">Ahmed Aziz</h3>
+        <ul>
+          <li>
+            <a
+              href="index.html"
+              class="d-flex align-center fs-14 rad-6 c-black p-10"
+            >
+              <i class="fa-solid fa-chart-simple fa-fw"></i>
+              <span class="fs-14 hide-mobile">DashBoard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="projects.html"
+              class="d-flex align-center fs-14 rad-6 c-black p-10"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span class="fs-14 hide-mobile">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="courses.html"
+              class="d-flex align-center fs-14 rad-6 c-black p-10"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span class="fs-14 hide-mobile">Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="friends.html"
+              class="active d-flex align-center fs-14 rad-6 c-black p-10"
+            >
+              <i class="fa-solid fa-user-group fa-fw"></i>
+              <span class="fs-14 hide-mobile">Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              class="d-flex align-center fs-14 rad-6 c-black p-10"
+            >
+              <i class="fa-solid fa-user fa-fw"></i>
+              <span class="fs-14 hide-mobile">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="settings.html"
+              class="d-flex align-center fs-14 rad-6 c-black p-10"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span class="fs-14 hide-mobile">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="files.html"
+              class="d-flex align-center fs-14 rad-6 c-black p-10"
+            >
+              <i class="fa-solid fa-file fa-fw"></i>
+              <span class="fs-14 hide-mobile">Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="plans.html"
+              class="d-flex align-center fs-14 rad-6 c-black p-10"
+            >
+              <i class="fa-solid fa-money-bill fa-fw"></i>
+              <span class="fs-14 hide-mobile">Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div-content class="content w-full overflow-hidden">
+        <!-- start head -->
+        <div class="head bg-white p-15 flex-between">
+          <div class="search p-relative">
+            <input
+              type="text"
+              class="p-10 border-1 rad-10"
+              name="Search"
+              placeholder="Search"
+            />
+          </div>
+          <div class="icons d-flex align-center">
+            <span class="notifications p-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="./images/Avatar-16.png" alt="Avater-image" />
+          </div>
+        </div>
+        <!-- end head -->
+        <h1 class="p-relative">Friends</h1>
+        <div class="friends-box m-20 d-grid gap-20">
+          <div
+            class="friend bg-white rad-10 txt-c-mobile block-mobile d-flex flex-column p-20 p-relative"
+          >
+            <div class="contact">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="txt-c">
+              <img
+                src="./images/profile-image/team-5.jpg"
+                alt=""
+                class="mb-15"
+              />
+              <h3 class="mb-5">Aziz Ali</h3>
+              <p class="fs-14 c-gray mb-20">Paramedic</p>
+            </div>
+            <div class="status d-flex">
+              <div class="d-flex flex-column">
+                <div class="d-flex mb-5">
+                  <i class="fa-regular fa-face-smile fa-fw mr-5"></i
+                  ><span>160 Friends</span>
+                </div>
+                <div class="d-flex mb-5">
+                  <i class="fa-solid fa-code-commit fa-fw mr-5"></i
+                  ><span>25 Projects</span>
+                </div>
+                <div class="d-flex">
+                  <i class="fa-regular fa-newspaper fa-fw mr-5"></i
+                  ><span>12 Articles</span>
+                </div>
+              </div>
+              <span class="vip">VIP</span>
+            </div>
+          </div>
+          <div
+            class="friend bg-white rad-10 txt-c-mobile block-mobile d-flex flex-column p-20 p-relative"
+          >
+            <div class="contact">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="txt-c">
+              <img
+                src="./images/profile-image/team-3.jpg"
+                alt=""
+                class="mb-15"
+              />
+              <h3 class="mb-5">Ahmed Aziz</h3>
+              <p class="fs-14 c-gray mb-20">Front-End Developer</p>
+            </div>
+            <div class="status d-flex">
+              <div class="d-flex flex-column">
+                <div class="d-flex mb-5">
+                  <i class="fa-regular fa-face-smile fa-fw mr-5"></i
+                  ><span>160 Friends</span>
+                </div>
+                <div class="d-flex mb-5">
+                  <i class="fa-solid fa-code-commit fa-fw mr-5"></i
+                  ><span>25 Projects</span>
+                </div>
+                <div class="d-flex">
+                  <i class="fa-regular fa-newspaper fa-fw mr-5"></i
+                  ><span>12 Articles</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="friend bg-white rad-10 txt-c-mobile block-mobile d-flex flex-column p-20 p-relative"
+          >
+            <div class="contact">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="txt-c">
+              <img
+                src="./images/profile-image/team-1.jpg"
+                alt=""
+                class="mb-15"
+              />
+              <h3 class="mb-5">Mohamed Walid</h3>
+              <p class="fs-14 c-gray mb-20">Apex Company Owner</p>
+            </div>
+            <div class="status d-flex">
+              <div class="d-flex flex-column">
+                <div class="d-flex mb-5">
+                  <i class="fa-regular fa-face-smile fa-fw mr-5"></i
+                  ><span>160 Friends</span>
+                </div>
+                <div class="d-flex mb-5">
+                  <i class="fa-solid fa-code-commit fa-fw mr-5"></i
+                  ><span>25 Projects</span>
+                </div>
+                <div class="d-flex">
+                  <i class="fa-regular fa-newspaper fa-fw mr-5"></i
+                  ><span>12 Articles</span>
+                </div>
+              </div>
+              <span class="vip">VIP</span>
+            </div>
+          </div>
+          <div
+            class="friend bg-white rad-10 txt-c-mobile block-mobile d-flex flex-column p-20 p-relative"
+          >
+            <div class="contact">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="txt-c">
+              <img
+                src="./images/profile-image/team-6.jpg"
+                alt=""
+                class="mb-15"
+              />
+              <h3 class="mb-5">Osama Nagy</h3>
+              <p class="fs-14 c-gray mb-20">Cyber Security Company Owner</p>
+            </div>
+            <div class="status d-flex">
+              <div class="d-flex flex-column">
+                <div class="d-flex mb-5">
+                  <i class="fa-regular fa-face-smile fa-fw mr-5"></i
+                  ><span>160 Friends</span>
+                </div>
+                <div class="d-flex mb-5">
+                  <i class="fa-solid fa-code-commit fa-fw mr-5"></i
+                  ><span>25 Projects</span>
+                </div>
+                <div class="d-flex">
+                  <i class="fa-regular fa-newspaper fa-fw mr-5"></i
+                  ><span>12 Articles</span>
+                </div>
+              </div>
+              <span class="vip">VIP</span>
+            </div>
+          </div>
+          <div
+            class="friend bg-white rad-10 txt-c-mobile block-mobile d-flex flex-column p-20 p-relative"
+          >
+            <div class="contact">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="txt-c">
+              <img
+                src="./images/profile-image/team-4.jpg"
+                alt=""
+                class="mb-15"
+              />
+              <h3 class="mb-5">Walid Ali</h3>
+              <p class="fs-14 c-gray mb-20">Paramedic</p>
+            </div>
+            <div class="status d-flex">
+              <div class="d-flex flex-column">
+                <div class="d-flex mb-5">
+                  <i class="fa-regular fa-face-smile fa-fw mr-5"></i
+                  ><span>160 Friends</span>
+                </div>
+                <div class="d-flex mb-5">
+                  <i class="fa-solid fa-code-commit fa-fw mr-5"></i
+                  ><span>25 Projects</span>
+                </div>
+                <div class="d-flex">
+                  <i class="fa-regular fa-newspaper fa-fw mr-5"></i
+                  ><span>12 Articles</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="friend bg-white rad-10 txt-c-mobile block-mobile d-flex flex-column p-20 p-relative"
+          >
+            <div class="contact">
+              <i class="fa-solid fa-phone"></i>
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="txt-c">
+              <img
+                src="./images/profile-image/team-2.jpg"
+                alt=""
+                class="mb-15"
+              />
+              <h3 class="mb-5">Abdallah Ali</h3>
+              <p class="fs-14 c-gray mb-20">Back-End Senior</p>
+            </div>
+            <div class="status d-flex">
+              <div class="d-flex flex-column">
+                <div class="d-flex mb-5">
+                  <i class="fa-regular fa-face-smile fa-fw mr-5"></i
+                  ><span>160 Friends</span>
+                </div>
+                <div class="d-flex mb-5">
+                  <i class="fa-solid fa-code-commit fa-fw mr-5"></i
+                  ><span>25 Projects</span>
+                </div>
+                <div class="d-flex">
+                  <i class="fa-regular fa-newspaper fa-fw mr-5"></i
+                  ><span>12 Articles</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div-content>
+    </div>
+  </body>
+</html>
